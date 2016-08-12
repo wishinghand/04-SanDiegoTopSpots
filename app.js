@@ -1,5 +1,6 @@
 //data stored in variable in case we want to reference it later
 var resource = 'topSpots.json';
+var weird = [2,3,4,5,5];
 
 $( document ).ready(function() {
     //jquery method to grab data from resource
@@ -11,3 +12,5 @@ $( document ).ready(function() {
         })
     });
 });
+
+$('#test').append('<p>'+weird+'</p>')
